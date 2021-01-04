@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.4.1/js-cloudimage-360-view.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+        
+        h3 {
+            padding-bottom: 15px;
+            text-align: center;
+        }
+        
+        body {
+            background: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            color: black;
+            width: 100vw;
+            height: calc(100vh - 40px);
+            overflow: hidden;
+        }
+        
+        .custom-file-container {
+            max-width: 70%;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="custom-file-container" data-upload-id="myUniqueUploadId">
+        <div id="RING" class="cloudimage-360" data-folder="ringversionone/" data-filename="product-{index}.png" data-amount="100" data-magnifier="2" data-bottom-circle="true" data-full-screen="true"></div>
+    </div>
+    <script>
+        window.CI360.init();
+    </script>
+</body>
+</html>
